@@ -27,4 +27,4 @@ LassoNet's website is [https://lassonet.ml](https://lassonet.ml). It contains ma
 
 ### Fork for Tensorization
 
-This fork adds the alternative model LassoNetTN which uses [TT-layers](https://arxiv.org/abs/1509.06569) in place of normal linear layers in the neural network. This model can be called directly or through LassoRegressorTN and LassoClassifierTN.
+This fork adds the alternative model LassoNetTN which uses [TT-layers](https://arxiv.org/abs/1509.06569) in place of normal linear layers in the neural network. This model can be called directly or through LassoNetRegressorTN and LassoNetClassifierTN.
