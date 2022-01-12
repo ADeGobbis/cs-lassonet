@@ -7,23 +7,23 @@ def read(fname):
 
 
 setup(
-    name="lassonet",
-    version="0.0.9",
-    author="Louis Abraham, Ismael Lemhadri",
-    author_email="louis.abraham@yahoo.fr, lemhadri@stanford.edu",
+    name="cs_lassonet",
+    version="0.0.1",
+    author="Andrea De Gobbis",
+    author_email="andrea.dg@neus-diagnostics.com",
     license="MIT",
-    description="Reference implementation of LassoNet",
+    description="Implementation of CS - LassoNet",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
-    url="https://github.com/ilemhadri/lassonet",
+    url="https://github.com/ADeGobbis/cs-lassonet",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
         "Operating System :: OS Independent",
     ],
-    packages=["lassonet"],
-    install_requires=["torch", "scikit-learn", "matplotlib"],
+    packages=["cs_lassonet"],
+    install_requires=["torch", "scikit-learn", "matplotlib", "sigpy"],
     tests_require=["pytest"],
     python_requires=">=3.6.5",
 )
